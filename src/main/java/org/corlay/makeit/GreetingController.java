@@ -11,6 +11,6 @@ public class GreetingController {
     
     @GetMapping("/greeting")
     public Greeting greeting() {
-        return new Greeting(1, "Salut, Frede!");
+        return new Greeting(2, "Salut, Frede!");
     }
 }
